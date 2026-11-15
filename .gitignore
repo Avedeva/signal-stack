@@ -1,0 +1,14 @@
+.env
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*.db
+data/uploads/*
+reports/*
+!.gitkeep
+*.log
+*.egg-info/
+.env.*.local
+

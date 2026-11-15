@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal-stack"
+version = "0.1.0"
+description = "Evidence-backed company intelligence and executive briefing engine"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit==1.56.0",
+  "SQLAlchemy==2.0.51",
+  "requests==2.32.5",
+  "beautifulsoup4==4.14.3",
+  "pandas==2.3.3",
+  "pypdf==7.1.0",
+  "reportlab==5.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2", "pytest-cov>=5,<7"]
+
+[project.scripts]
+signal-stack = "signal_stack.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

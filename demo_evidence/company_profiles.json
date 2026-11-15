@@ -1,0 +1,45 @@
+{
+  "retrieved_on": "2026-11-13",
+  "method": "Browser-assisted review of the linked first-party public pages. These profile facts were not fetched by the Signal Stack crawler and do not count as crawled documents or intelligence signals. Re-run company research and validate the links before approving them.",
+  "companies": [
+    {
+      "name": "MeetUniversity",
+      "website": "https://www.meetuniversity.com",
+      "source_url": "https://www.meetuniversity.com/about",
+      "source_title": "Meet University — About Us",
+      "facts": [
+        {"key": "industry", "value": "Study-abroad and international education guidance", "snippet": "global education"},
+        {"key": "company_description", "value": "The company describes helping students in India plan for study abroad through personalized guidance and university, application, and admission support.", "snippet": "study abroad accessible"},
+        {"key": "customer_segments", "value": "Students in India considering international undergraduate or postgraduate study.", "snippet": "students in India"},
+        {"key": "customer_problem", "value": "Navigating international education, university and course choice, application requirements, tests, and scholarship costs.", "snippet": "complex world of international education"},
+        {"key": "offerings_observed", "value": "Personalized counseling, university and course search, application assistance, test preparation, and scholarship guidance.", "snippet": "University & Course Search"}
+      ]
+    },
+    {
+      "name": "Zerodha",
+      "website": "https://zerodha.com",
+      "source_url": "https://zerodha.com/about/",
+      "source_title": "Zerodha — Our company, history, and the people behind it",
+      "facts": [
+        {"key": "industry", "value": "Fintech / stock brokerage in India (industry label supplied in the assignment)", "snippet": "discount broking model in India", "status": "assignment-provided"},
+        {"key": "company_description", "value": "Zerodha describes a technology-led Indian discount brokerage and an ecosystem of investment platforms.", "snippet": "investment platforms"},
+        {"key": "customer_segments", "value": "Traders and investors in India, including retail-market participants.", "snippet": "traders and investors face in India"},
+        {"key": "customer_problem", "value": "The company says it set out to reduce barriers around trading cost, support, and technology.", "snippet": "cost, support, and technology"},
+        {"key": "offerings_observed", "value": "Investment platforms plus open online educational and community initiatives.", "snippet": "open online educational and community initiatives"}
+      ]
+    },
+    {
+      "name": "Zomato",
+      "website": "https://www.zomato.com",
+      "source_url": "https://www.zomato.com/policies/terms-of-service/",
+      "source_title": "Zomato — Terms of Service",
+      "facts": [
+        {"key": "industry", "value": "Food delivery (industry label supplied in the assignment)", "snippet": "delivery of the food ordered", "status": "assignment-provided"},
+        {"key": "company_description", "value": "Zomato's terms describe platform services for restaurant menus, order placement, food delivery, order tracking, and customer support.", "snippet": "order placement with the Restaurants"},
+        {"key": "customer_segments", "value": "Customers and restaurant partners using the platform; the terms define both roles.", "snippet": "Restaurant Partner"},
+        {"key": "customer_problem", "value": "Placing restaurant orders and resolving delivery, tracking, or order-support issues.", "snippet": "customer support"},
+        {"key": "offerings_observed", "value": "Menus, order placement, delivery, live order tracking, and order support.", "snippet": "live tracking of orders"}
+      ]
+    }
+  ]
+}

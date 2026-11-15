@@ -1,0 +1,7 @@
+$ErrorActionPreference = "Stop"
+$projectRoot = Split-Path -Parent $PSScriptRoot
+Set-Location $projectRoot
+$env:PYTHONPATH = Join-Path $projectRoot "src"
+python -m signal_stack.cli init-db
+python scripts/run_streamlit.py
+
