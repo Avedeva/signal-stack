@@ -18,6 +18,12 @@ The requirement-by-requirement assignment audit is in the [Assignment Acceptance
 - Internet access from the machine running the app to install Python dependencies and to check public sources. A blocked/sleeping host cannot collect or schedule jobs.
 - Optional: an OpenRouter API key or a local Ollama installation/model. The selected OpenRouter model is listed as free, but OpenRouter still requires an account/API key and may rate limit free access.
 - Optional for broader public source discovery: a Tavily Search API key. Search is disabled by default. See [Tavily Search API documentation](https://docs.tavily.com/documentation/api-reference/endpoint/search); provider access and usage terms are controlled by Tavily.
+# Video
+
+
+https://github.com/user-attachments/assets/a88f5e91-02e9-41d7-b225-02ae84e94607
+
+
 
 ## Setup on Windows PowerShell
 
